@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/hype-sel-logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HYPESEL STORE</title>
+</head>
+<body>
+    <div class="contenedor">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-5" href="index.html">
+                <img src="./imagenes/hype-sel-logo.png" alt="logo hypesel store">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="medidas.html">MEDIDAS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactos.html">CONTACTOS</a>
+                  </li>
+                  <li class="nav-item d-none">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <header id="header">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imagenes/carousel/banner (1).jpg" class="d-block w-100" alt="zapatillas jordan 1 red">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/carousel/jordan-3-dark-iris-store-list-1 (1).jpg" class="d-block w-100" alt="zapatillas jordan 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/carousel/air-jordan-1-mid-white-shadow-554724-073-1 (1) (1).jpg" class="d-block w-100" alt="zapatillas jordan 1">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </header>
+        <nav class="bgFiltro" id="navFiltro">
+            <h4>FILTRAR</h4>
+            <span><b>MARCA</b></span>
+            <ul class="navFiltro">
+                <li>
+                    <a href="#" class="navFiltro">NIKE</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">ADIDAS</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">PUMA</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">VANS</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">JORDAN</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">NEW BALANCE</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">FILA</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">REEBOK</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">TOPPER</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">PONY</a>
+                </li>
+                <li>
+                    <a href="#" class="navFiltro">CHAMPION</a>
+                </li>
+            </ul>
+            <span><b>GENERO</b></span>
+            <div>
+                <input type="checkbox"  id="masculino">            
+                <label for="masculino">HOMBRE</label>
+            </div>
+            <div>
+                <input type="checkbox"  id="femenino">            
+                <label for="femenino">MUJER</label>
+            </div>
+        </nav>
+        <main class="center" id="productos">
+            <h1>PRODUCTOS</h1>
+            <section class="conteiner-fluid">
+                <div class="row">
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/adidas-forum-buckle-low-the-first-cafe-x-bad-bunny.jpg" class="card-img-top" alt="Adidas Forum Buckle Low 'The First Cafe' x Bad Bunny">
+                        <div class="card-body">
+                          <h5 class="card-title">Adidas Forum Buckle Low 'The First Cafe' x Bad Bunny</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/af1-black-gold.jpg" class="card-img-top" alt="AirForce 1 BLACK GOLD">
+                        <div class="card-body">
+                          <h5 class="card-title">AirForce 1 BLACK GOLD</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/jordan-4-offwhite.jpg" class="card-img-top" alt="JORDAN RETRO 4 OFFWHITE">
+                        <div class="card-body">
+                          <h5 class="card-title">JORDAN RETRO 4 OFFWHITE</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/jordan-4-yellow.jpg" class="card-img-top" alt="JORDAN 4 YELLOW">
+                        <div class="card-body">
+                          <h5 class="card-title">JORDAN 4 YELLOW</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/nike-sb-dunk-what-the-paul.jpg" class="card-img-top" alt="Nike SB Dunk 'What The Paul'">
+                        <div class="card-body">
+                          <h5 class="card-title">Nike SB Dunk 'What The Paul'</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/patta-x-nike-air-max-1-monarch.jpg" class="card-img-top" alt="Patta x Nike Air Max 1 Monarch">
+                        <div class="card-body">
+                          <h5 class="card-title">Patta x Nike Air Max 1 Monarch</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/nike-sb-dunk-low-pro-parra-abstract-art.jpg" class="card-img-top" alt="Nike SB Dunk Low Pro Parra Abstract Art">
+                        <div class="card-body">
+                          <h5 class="card-title">Nike SB Dunk Low Pro Parra Abstract Art</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/adidas-forum-low-bad-bunny-pink-easter-egg.jpg" class="card-img-top" alt="Adidas Forum Low Bad Bunny Pink Easter Egg">
+                        <div class="card-body">
+                          <h5 class="card-title">Adidas Forum Low Bad Bunny Pink Easter Egg</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/adidas-x-disney-superstar.jpg" class="card-img-top" alt="Adidas x Disney Superstar">
+                        <div class="card-body">
+                          <h5 class="card-title">Adidas x Disney Superstar</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/airmax-1-suede-curry.jpg" class="card-img-top" alt="AIR MAX 1 Suede Curry">
+                        <div class="card-body">
+                          <h5 class="card-title">AIR MAX 1 Suede Curry</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/camcorder-nike-dunk-low-sb.jpg" class="card-img-top" alt="Camcorder Nike Dunk Low SB">
+                        <div class="card-body">
+                          <h5 class="card-title">Camcorder Nike Dunk Low SB</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm-12 col-md-6 col-lg-4">
+                        <img src="./imagenes/zapatillas/pag/jordan-1-mid-gs-candy.jpg" class="card-img-top" alt="Jordan 1 Mid GS 'Candy'">
+                        <div class="card-body">
+                          <h5 class="card-title">Jordan 1 Mid GS 'Candy'</h5>
+                          <a href="#" class="btn btn-color">AGREGAR AL CARRITO</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="piePagina conteiner-fluid" id="footerIndex">
+            <div class="row text-center py-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <h4>SEGUINOS EN NUESTRAS REDES</h4>
+                    <ul>
+                        <li>
+                            <a href="https://es-la.facebook.com/" target="_blank">
+                                <img src="./imagenes/redes-sociales/reescalado/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <img src="./imagenes/redes-sociales/reescalado/youtube.png" alt="youtube">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/?lang=es" target="_blank">
+                                <img src="./imagenes/redes-sociales/reescalado/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://ar.pinterest.com/" target="_blank">
+                                <img src="./imagenes/redes-sociales/reescalado/pinterest.png" alt="pinterest">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/?hl=es-la" target="_blank">
+                                <img src="./imagenes/redes-sociales/reescalado/instagram.png" alt="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <h4>MEDIOS DE PAGO</h4>
+                    <ul>
+                        <li>
+                            Efectivo
+                        </li>
+                        <li>
+                            Tarjeta de Credito
+                        </li>
+                        <li>
+                            Mercado Pago
+                        </li>
+                    </ul>
+                </div>
+                <span class="col-sm-12 col-md-12 col-lg-4">            
+                    <a href="./nosotros.html">PREGUNTAS FRECUENTES</a>            
+                </span>
+            </div>
+        </footer>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>       
+</body>
+</html>
