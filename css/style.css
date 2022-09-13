@@ -307,45 +307,12 @@ h2{
 }
 
 /*medidas*/
-.table{
-    display: inline-block;
-    text-align: center;
-    margin: 20px;
-    color: white;
-    border: solid 5px;
-}
-h3{
-    color: silver;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.753);
-    font-size: 1.5em;
-    margin: 20px 0;
-}
-
-.pColor{
-    color: black;
-    background-color: rgba(rgb(58, 58, 58), rgb(53, 53, 53), rgba(95, 95, 95, 0.521), alpha);
-    display: inline-block;
-
-}
-.pColor p{
-    margin-bottom: 20px;
-}
-.textCenter{
-    text-align: center;
-}
-
-tr td{
-    padding: 15px;      
+table{
     border: none;
-    border: solid 1px;
+    margin: 5px;
 }
-tr th{
-    border: none;
-    border: solid 1px;
-}
-.margin{
-    margin-top: 100px;
+.marginText{
+    margin: 10px;
 }
 
 /*nosotros*/
@@ -385,4 +352,9 @@ tr th{
 .btn-color:hover{
     background: linear-gradient (to left, grey, black);
     transform: 1s ;
+}
+
+.animaciones:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
