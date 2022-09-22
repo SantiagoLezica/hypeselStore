@@ -1,17 +1,15 @@
-$bgFiltro: rgba(156, 156, 156, 0.671);
-
 .inventario{
     text-align: center;
-    color: $bgWhite;
+    color: $fontWhite;
 }
 .bgGray{
-    background-color: $bgH1;
+    background-color: map-get($map:$bgPaleta, $key: 'bgH1');
     padding: 5px;
     margin: 15px;
     display: inline-block;
 }
 .bgFiltro{
-    background-color: $bgFiltro;
+    background-color: map-get($map:$bgPaleta, $key: 'bgFiltro');;
     padding: 20px;
     margin: 15px;
     padding-top: 30px;
@@ -20,9 +18,9 @@ $bgFiltro: rgba(156, 156, 156, 0.671);
 }
 .navFiltro{
     @include list(none,none);
-    color: $bgBlack;
+    color: $fontBlack;
     &:hover{
-        color: $bgWhite;
+        color: $fontWhite;
     }
 }
 .navFiltro1{
@@ -89,14 +87,14 @@ $bgFiltro: rgba(156, 156, 156, 0.671);
 
 }
 .piePagina{
-    background-color: $bgBlack;
-    color: $bgWhite;
+    background-color: map-get($map:$bgPaleta, $key: 'bgBlack');;
+    color: $fontWhite;
     ul{
         list-style: none;    
     }
     a{
         @include list(none,none);
-        color: $bgWhite;
+        color: $fontWhite;
         &:hover{
             color: $fontSilver;
         }

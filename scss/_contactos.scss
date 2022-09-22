@@ -1,17 +1,15 @@
-$bgText: rgba(165, 165, 165, 0.692);
-
 .bgRed{
-    background-color: $bgText;
+    background-color: map-get($map:$bgPaleta, $key: 'bgText');
     margin: 20px;
     padding: 20px;
 }
 .preguntasFrecuentes{
-    background-color: $bgH1;
+    background-color: map-get($map:$bgPaleta, $key: 'bgH1');
     color: $fontSilver;
 }
 .btn-color{
     background: linear-gradient(to left, black, gray);
-    color: $bgWhite;
+    color: $fontWhite;
     &:hover{
         background: linear-gradient (to left, grey, black);
         transform: 1s ;
