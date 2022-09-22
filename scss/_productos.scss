@@ -19,8 +19,7 @@ $bgFiltro: rgba(156, 156, 156, 0.671);
     text-align: center;
 }
 .navFiltro{
-    text-decoration: none;
-    list-style: none;
+    @include list(none,none);
     color: $bgBlack;
     &:hover{
         color: $bgWhite;
@@ -96,11 +95,15 @@ $bgFiltro: rgba(156, 156, 156, 0.671);
         list-style: none;    
     }
     a{
-        list-style: none;
-        text-decoration: none;
+        @include list(none,none);
         color: $bgWhite;
         &:hover{
             color: $fontSilver;
         }
     }
+}
+.btn-carrito{
+    @extend .btn-color;
+    width: 100px;
+    height: 30px;
 }

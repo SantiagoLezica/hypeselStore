@@ -4,6 +4,10 @@ $bgBlack: rgba(0, 0, 0);
 $fontSilver: silver;
 $bgH1: rgba(0, 0, 0, 0.753);
 $bgWhite: white;
+@mixin list ($listStyle, $textDecoration) {
+    list-style: $listStyle;
+    text-decoration: $textDecoration;    
+}
 
 ;
 body{
@@ -16,8 +20,7 @@ body{
     background-color: $bgBlack;
 }
 .navBar1{
-    list-style: none;
-    text-decoration: none;
+    @include list(none,none);
     color: $bgWhite ;
     &:hover{
         color: $fontSilver; 
