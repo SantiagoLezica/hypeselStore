@@ -190,7 +190,7 @@ h2 {
     text-align: left;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .contenedor {
     grid-template-columns: 15vw 85vw;
     grid-template-areas: "nav nav" "header header" "filtro productos" "filtro productos" "footer footer";
