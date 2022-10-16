@@ -3,6 +3,7 @@ body {
   background-image: url(../imagenes/fondo.png);
   background-attachment: fixed;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 .bg-black {
