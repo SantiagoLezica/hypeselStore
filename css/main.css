@@ -232,6 +232,12 @@ table {
   margin: 10px;
 }
 
+.bgTittle {
+  color: silver;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
 .bgRed {
   background-color: rgba(165, 165, 165, 0.692);
   margin: 20px;

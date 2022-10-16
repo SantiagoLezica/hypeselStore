@@ -5,3 +5,8 @@ table{
 .marginText{
     margin: 10px;
 }
+.bgTittle{
+    color: $fontSilver;
+    text-align: center;
+    background-color: map-get($map:$bgPaleta, $key: 'bgH1');
+}
